@@ -141,7 +141,7 @@ The variable `classe` contains 5 levels. The plot of the outcome variable shows 
 plot(subTraining$classe, col="orange", main="Levels of the variable classe", xlab="classe levels", ylab="Frequency")
 ```
 
-![](Practical_ML_Course_Project_files/figure-html/exploranalysis-1.png) 
+![(Practical_ML_Course_Project_files](figure/analysis.png) 
 
 The plot above shows that Level A is the most frequent classe. D appears to be the least frequent one.
 
