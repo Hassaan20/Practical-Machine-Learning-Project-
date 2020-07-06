@@ -160,8 +160,9 @@ predictDT <- predict(modFitDT, subTesting, type = "class")
 # Plot result
 rpart.plot(modFitDT, main="Classification Tree", extra=102, under=TRUE, faclen=0)
 ```
+![plot of totalstepsperday](figure/totalstepsperday.png)
 
-![](Practical_ML_Course_Project_files/figure-html/decisiontree-1.png) 
+![Practical_ML_Course_Project_files](figure/classificationtree.png) 
 
 Following confusion matrix shows the errors of the prediction algorithm.
 
